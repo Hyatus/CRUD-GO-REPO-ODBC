@@ -1,0 +1,38 @@
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-06T23:43:26-06:00"}
+{"level":"warning","msg":"Wrong path accessed: /userss/","time":"2025-08-06T23:43:32-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-07T23:49:35-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:11:17-06:00"}
+{"level":"error","message":"Failed to fetch users","method":"GET","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:11:36-06:00"}
+{"level":"warning","msg":"Wrong path accessed: /favicon.ico","time":"2025-08-10T23:11:36-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:12:35-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:13:11-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:15:12-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:15:20-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:16:02-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:16:38-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:17:21-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:18:20-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:18:34-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:19:14-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:19:20-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:19:36-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:21:29-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:21:36-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:21:40-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:27:18-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:27:24-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:29:36-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:32:00-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:33:31-06:00"}
+{"level":"error","message":"Failed to create user","method":"POST","msg":"API Error Response","path":"/users/","status":500,"time":"2025-08-10T23:33:39-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:37:44-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:39:18-06:00"}
+{"level":"warning","msg":"Wrong path accessed: /users","time":"2025-08-10T23:40:25-06:00"}
+{"level":"warning","msg":"Wrong path accessed: /users/","time":"2025-08-10T23:40:38-06:00"}
+{"level":"warning","msg":"Wrong path accessed: /users/","time":"2025-08-10T23:41:03-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:44:59-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:56:34-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-10T23:57:31-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-11T00:02:10-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-11T00:03:15-06:00"}
+{"level":"info","msg":"Starting server on port 8080","time":"2025-08-11T00:21:16-06:00"}
