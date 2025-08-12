@@ -12,7 +12,7 @@ func main() {
 	utils.InitLogger() 
 	// Conectar con la DB
 	cfg := config.LoadConfig() // Loading the configuration
-	config.ConnectDB(cfg.DBConnString) // Connecting to the database using the connection string from the config
+	config.ConnectDB(cfg) // Connecting to the database using the connection string from the config
 
 	r := gin.Default()
 	r.Use(middleware.ErrorHandler()) // Using the error handler middleware

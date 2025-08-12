@@ -2,22 +2,27 @@ package config
 
 import (
 	"database/sql"
+	"fmt"
 	"log"
-	_ "github.com/alexbrainman/odbc" // Importing the ODBC driver for database connection
+	_ "github.com/go-sql-driver/mysql"
 )
 
-var DB *sql.DB // Declaring a global variable DB of type *sql.DB
+var DB *sql.DB
 
-func ConnectDB(connString string) {
+func ConnectDB(cfg Config) {
 	var err error
-	DB, err = sql.Open("odbc", connString) // Opening a database connection using the ODBC driver and connection string
+	dsn := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s",
+		cfg.DBUser, cfg.DBPassword, cfg.DBHost, cfg.DBPort, cfg.DBName)
+
+	DB, err = sql.Open("mysql", dsn)
 	if err != nil {
-		log.Fatalf("Error opening database: %v", err) // Logging a fatal error if the connection fails
-	}
-	err = DB.Ping() // Pinging the database to ensure the connection is valid
-	if err != nil {
-		log.Fatalf("Error connecting to the database: %v", err) // Logging a fatal error if the ping fails
+		log.Fatal("Error abriendo conexión:", err)
 	}
 
-	log.Println("Conexción exitosa a la base de datos") // Logging a success message if the connection is successful
- }
+	err = DB.Ping()
+	if err != nil {
+		log.Fatal("No se pudo conectar a la base de datos:", err)
+	}
+
+	log.Println("Conexión a MySQL exitosa")
+}
